@@ -1,3 +1,7 @@
+{% extends 'list/index.html' %}
+
+{% block content %}
+
 <h1>Login</h1>
 
 <form action="" method="POST">
@@ -7,3 +11,5 @@
 
     <p>Do You want your own list? <a href="{% url 'register' %}">Register </a></p>
 </form>
+
+{% endblock content %}
