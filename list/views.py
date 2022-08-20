@@ -7,9 +7,9 @@ from django.contrib.auth.views import LoginView
 from django.views.generic.edit import FormView
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
-from .models import Task
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
+from .models import Task
 
 
 class TaskList(LoginRequiredMixin, ListView):
@@ -20,6 +20,11 @@ class TaskList(LoginRequiredMixin, ListView):
         context = super().get_context_data(**kwargs)
         context['task'] = context['task'].filter(user=self.request.user)
         context['count'] = context['task'].filter(complete=False).count()
+
+        search_input = self.request.GET.get('search-area') or ''
+        if search_input:
+            context['task'] = context['task'].filter(title__icontains = search_input)
+            context['search_input'] = search_input
         return context
 
 class TaskDetail(LoginRequiredMixin, DetailView):
@@ -43,7 +48,7 @@ class TaskUpdate(LoginRequiredMixin, UpdateView):
 
 class TaskDelete(LoginRequiredMixin, DeleteView):
     model = Task
-    context_object_name = 'task'
+    fields = ['title', 'description', 'complete']
     success_url = reverse_lazy('task')
 
 class CustomLoginView(LoginView):
