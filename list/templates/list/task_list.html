@@ -6,7 +6,10 @@
 {% endif %}
 <hr>
 <h1>shoppinglist</h1>
-
+<form action="" method="get">
+    <input type="text" name="search-area">
+    <input type="submit" value="Search Item">
+</form>
 <table>
     <tr>
         <th>Items</th>
@@ -21,6 +24,6 @@
     </tr>
     {% empty %}
     <h3> No items in list</h3>
-    <a href="">Add New Items</a>
+    <a href="{% url 'task-create' %}   ">Add New Items</a>
     {% endfor %}
 </table>
