@@ -1,13 +1,17 @@
 {% extends 'list/index.html' %}
 
 {% block content %}
+<div class="header">
+    <a href="{% url 'task' %}">&#8678; Back</a>
 
-<form action="" method="POST">
-    {% csrf_token %}
-
-    <p>sure u want delete? - {{task}}</p>
-    <input type="submit" value="yes">
-</form>
-<a href="{% url 'task' %}">no, go back</a>
+</div>
+<div class="card-body">
+    <form action="" method="POST">
+        {% csrf_token %}
+    
+        <p>Did you bought this item? - <b><i>{{task}}</i></b></p>
+        <input class="button" type="submit" value="Yes, remove">
+    </form>
+</div>
 
 {% endblock content %}
