@@ -1,1 +1,1 @@
-web: gunicorn sholiprj.wsgi
+web: gunicorn shoplist.wsgi
