@@ -8,9 +8,16 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
 import os
-
+from django.contrib import admin
+from django.urls import path, include
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shoplist.settings')
 
 application = get_wsgi_application()
+
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('list.urls')),
+]

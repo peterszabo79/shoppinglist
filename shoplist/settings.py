@@ -32,7 +32,7 @@ DEBUG = False
 
 X_FRAMW_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['shoppinlistbypsz.herokuapp.com', 'localhost','*']
+ALLOWED_HOSTS = ['shoppinlistbypsz.herokuapp.com', 'localhost', '*']
 
 
 # Application definition

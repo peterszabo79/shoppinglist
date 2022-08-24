@@ -6,12 +6,11 @@
     <h1>Login</h1>
 </div>
 <div class="card-body">
-    <form action="" method="POST">
+    <form method="POST">
         {% csrf_token %}
         {{ form.as_p }}
         <input class="button" type="submit" value="Login Now">
-    <small>        <p>Do You want your own list? <a href="{% url 'register' %}">Register </a></p>
-    </small>
     </form>
+    <p>Do You want your own list? <a href="{% url 'register' %}">Register </a></p>
 </div>
 {% endblock content %}

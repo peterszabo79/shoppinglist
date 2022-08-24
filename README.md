@@ -16,10 +16,9 @@
 
 ### Project Goal
 #### The goal of the project is to create a Task Manager shopping list application website. 
-* who wants to store, edit and delete their own items in one shoppin list.
+* who wants to store, edit and delete their own items in one shopping list.
 
-### User Stories
-* User Stories: 
+### User Stories 
    * As a Site User I can register in the app so that I can create my own shopping list
    * As a Site User I can log in 
    * As a Site User I can make a new shopping list
@@ -36,39 +35,36 @@
 
 #### Login page - existing user can login. 
 
-![](images/picture2.png)
+![](list/images/login.jpeg)
 
 #### Registration page - a new user can create an account adding his/her name ans password. 
 
-![](images/picture3.png)
+![](list/images/register.jpeg)
 
 #### Main page - will show user's name and user can add, edit, view, delete, search and see how many items on the list to buy. The items which are purchased will be marked with crossed out and green dot from the left handside. 
 
-![](images/picture4.png)
-
+![](list/images/list.jpeg)
+![](list/images/marked.jpeg)
 #### Search page - user can search for items typing in a first letter. 
 
-![](images/picture5.png)
+![](list/images/search.jpeg)
 
 #### Add item page - user can add a new item with a  "+" button. Title of item, description of the item,where to buy, how many to buy, complete button when item was pought, and save item button.  
 
-![](images/picture6.png)
+![](list/images/add item.jpeg)
 
 #### View/Edit - when item was added we can add some description in description box. 
 
-![](images/picture7.png)
+![](list/images/description.jpeg)
 
 #### Complete - when item was purchased we can mark as complete. 
 
-![](images/picture8.png)
+![](list/images/complete.jpeg)
 
 #### Delete - when item is bought user can delete it with "x" button from the right hand side. Before that it will appear a message - "Are you sure you want to delete this item?"
 
-![](images/picture9.png)
+![](list/images/delete.jpeg)
 
-#### Main page - when user deleted his item, he will do not have it on the main page. 
-
-![](images/picture10.png)
 
 ## Future Features
   * A useful future feature would be to add a map for favourite shops
@@ -89,18 +85,16 @@
 # Technologies Used
 ## Languages
 
-  * [HTML5](e
-  * [CSS](
-  * [Bootstrap 
-  * [Python]
-  * [Django 
+  * HTML5
+  * CSS
+  * Bootstrap 
+  * Python
+  * Django 
   * GitPod
   * GitHUb
-  * DevTools ????? ez nem biztos
+  * Chroome DevTools
   * Heroku
   * Google Fonts
-  * Font Awesome.  ????
-  * a nyil ikonok
 
 ## Database
 
