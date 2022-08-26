@@ -20,7 +20,7 @@ Through the use of the Kanban board in the projects view in Github, the project 
 ![Kanban board github](list/images/milestones.jpeg)
 * Projects were used to create the project.
 * Issues were used to create User Stories with a custom template. Eash user story is clearly described with a title, statement, acceptance criteria and tasks.
-#### As work on a user story was begun the story was moved from the 'to do' column of the board to the 'In progress' column. When work on the story was complete the user story was moved into the 'done' column.
+* As work on a user story was begun the story was moved from the 'to do' column of the board to the 'In progress' column. When work on the story was complete the user story was moved into the 'done' column.
 
 
 ### Project Goal
@@ -195,7 +195,7 @@ if os.path.isfile("env.py"):
 
   * [Django To Do List App With User Registration & Login](https://www.youtube.com/c/Desphixs) used his code for above application
   * Hello Django, I Think Therefore I Blog from Code Institute
-  
+
 # Acknowledgements
 
   ### There would have been no submission without the following people:
