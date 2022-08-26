@@ -60,7 +60,7 @@ Through the use of the Kanban board in the projects view in Github, the project 
 
 #### Add item page - user can add a new item with a  "+" button. Title of item, description of the item,where to buy, how many to buy, complete button when item was pought, and save item button.  
 
-![](list/images/add item.jpeg)
+![](list/images/additem.jpeg)
 
 #### View/Edit - when item was added we can add some description in description box. 
 
