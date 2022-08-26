@@ -8,7 +8,16 @@
 # UX
 ## Strategy 
 ### Agile
-#### The Agile methodology was used to plan the project. Github was used as the tool to demonstrate this.
+The Agile Methodology was used to plan this project. This was implemented through Github and the Project Board which can be seen here -  <a href="https://github.com/users/peterszabo79/projects/8/views/1" target="_blank"> Shopping List </a>
+
+Through the use of the Kanban board in the projects view in Github, the project was divived into a few different sections:
+* Backlog
+* Current Iteration
+* In Progress
+* Done
+
+![Kanban board github](list/images/kanban.jpeg)
+![Kanban board github](list/images/milestones.jpeg)
 * Projects were used to create the project.
 * Issues were used to create User Stories with a custom template. Eash user story is clearly described with a title, statement, acceptance criteria and tasks.
 #### As work on a user story was begun the story was moved from the 'to do' column of the board to the 'In progress' column. When work on the story was complete the user story was moved into the 'done' column.
@@ -174,20 +183,22 @@ if os.path.isfile("env.py"):
 10. Final Deployment
     * When development is complete change the debug setting to: DEBUG = False in settings.py
     * Because DEBUG must be switched to True for development and False for production it is recommended that only manual deployment is used in Heroku. The live deployment of the project can be seen [here](https://shoppinglistbypsz.herokuapp.com/login/)
+# Testing
+   * The testing phases have been carried out using the PIP8 Python Validator. No errors have been identified from the Validators.
+   * W3C Markup Validation Service
+   * W3C CSS Validation Service(Jigsaw)
+   * Lighthouse Validator
 
-### Local Deployment: 
-   * To fork the project navigate to the repository [here](https://github.com/peterszabo79/shoppinglist)
-   * Above the list of files click the dropdown code menu.
-   * Select the https option and copy the link.
-   * Open the terminal.
-   * Change the current working directory to the desired destination location.
-   * Click the 'Fork' button at the top right of the page. A forked copy of the repository will appear in your Repositories page.
+## Additional Tests
+   * Tests have been performed on Firefox, Opera, Chrome and Safari and the result is consistent in all the browsers on desktop and mobile devices
 # Credits
 
   * [Django To Do List App With User Registration & Login](https://www.youtube.com/c/Desphixs) used his code for above application
-   * Hello Django, I Think Therefore I Blog from Code Institute
-
+  * Hello Django, I Think Therefore I Blog from Code Institute
+  
 # Acknowledgements
+
   ### There would have been no submission without the following people:
-   * Ronan McGill
+   * Everyone in the Slack community and my cohort class, especially: Ronan McGill and Claudio Crocilla
    * My mentor Spencer Barriball : for his endless knowledge, patience and advice
+   * My friends and my family
