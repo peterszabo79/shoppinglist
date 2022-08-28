@@ -185,9 +185,11 @@ if os.path.isfile("env.py"):
     * Because DEBUG must be switched to True for development and False for production it is recommended that only manual deployment is used in Heroku. The live deployment of the project can be seen [here](https://shoppinglistbypsz.herokuapp.com/login/)
 # Testing
    * The testing phases have been carried out using the PIP8 Python Validator. No errors have been identified from the Validators.
-   * W3C Markup Validation Service
-   * W3C CSS Validation Service(Jigsaw)
-   * Lighthouse Validator
+   * W3C Markup Validation Service - No errors or warnings to show
+   * W3C CSS Validation Service(Jigsaw) - No Error Found.
+   * Lighthouse Validator 
+   ![](list/images/desktop.jpeg)
+   ![](list/images/mobile.jpeg)
 
 ## Additional Tests
    * Tests have been performed on Firefox, Opera, Chrome and Safari and the result is consistent in all the browsers on desktop and mobile devices
